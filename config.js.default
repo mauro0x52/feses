@@ -1,0 +1,36 @@
+module.exports = {
+    host : {
+        port : 38885,
+        url  : 'localhost',
+        debuglevel : 1 // 0 sem erros, 1 com erros
+    },
+    mongodb : {
+        port : 27017,
+        url : 'localhost',
+        username : undefined,
+        password : undefined,
+        db : 'auth'
+    },
+    services : {
+        auth : {
+            url  : 'localhost',
+            port : 38800
+        },
+        tasks : {
+            url  : 'localhost',
+            port : 38881
+        },
+        crm : {
+            url  : 'localhost',
+            port : 38882
+        },
+        finances : {
+            url  : 'localhost',
+            port : 38884
+        },
+        feses : {
+            url  : 'localhost',
+            port : 38885
+        }
+    }
+};

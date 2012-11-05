@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# ------------------------------------------------------------------------------
+# Arquivo de Configuracao 
+# ------------------------------------------------------------------------------
+
+# Nome do repositorio
+CONFIG_GIT_REPOSITORY="origin"
+
+# Nome do branch
+CONFIG_GIT_BRANCH="master"
